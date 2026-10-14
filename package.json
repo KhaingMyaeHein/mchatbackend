@@ -1,0 +1,32 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Strat date: 3 Oct 2026",
+  "license": "ISC",
+  "author": "Khaing Myae Hein",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "colors": "^1.4.0",
+    "crypto": "^1.0.1",
+    "dotenv": "^18.0.5",
+    "express": "^5.2.1",
+    "imagekit": "^5.2.0",
+    "jsonwebtoken": "^9.0.3",
+    "libphonenumber-js": "^1.13.14",
+    "mongoose": "^9.10.4",
+    "morgan": "^1.12.1",
+    "multer": "^2.4.0",
+    "nodemailer": "^10.0.16",
+    "socket.io": "^4.8.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
